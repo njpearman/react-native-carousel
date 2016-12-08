@@ -136,7 +136,7 @@ var Carousel = React.createClass({
 
   render() {
     return (
-      <View style={{ flex: 1 }}>
+      <View>
         <CarouselPager
           ref="pager"
           width={this.getWidth()}
